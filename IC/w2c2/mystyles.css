@@ -1,0 +1,41 @@
+
+
+#header{
+    line-height:30px;
+    height:30px;
+    text-align:center ;
+}
+
+
+#summary {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:700px;
+    width:150px;
+    float:right;
+    padding:5px;
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+
+#table1 {
+    border: 1px solid black;
+}
+#table1 {
+    border: 1px solid black;
+}
+#JAge {
+
+    border: 1px solid black;
+    margin: 2px;
+    padding: 4px;
+
+}
+
+        

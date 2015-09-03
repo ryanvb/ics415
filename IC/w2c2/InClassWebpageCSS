@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<link>
+<title>ICS415HW4Part1</title>
+<meta charset="UTF-8">
+
+<link rel = "stylesheet" href="mystyles.css">
+
+</head>
+<body>
+
+<header id="header">
+    <h1> Ryan's Awesome Website</h1>
+    <hr>
+
+</header>
+
+
+
+
+<div id="summary">
+    <h2> Summary Window</h2>
+
+    <p>This is the main page for Ryan's awesome website </p>
+
+</div>
+
+
+
+
+<nav role="main">
+    <a href="InClassWebpageCSS.html"> Home </a>
+    <a href="InClassWebpageCSSPart2.html"> Forms </a>
+</nav>
+<hr>
+
+
+
+<p>My website is for ICS415.</p>
+<p>Table of my siblings & age</p>
+<div id="table1">
+
+    <div id= "Joelle"> Joelle Buillard</div>
+
+    <div id= "JAge"> 30</div>
+
+
+</div>
+
+<p>Same table without borders</p>
+
+<table style="width:30%">
+    <tr>
+        <td>Joelle</td>
+        <td>Buillard</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <td>Leilani</td>
+        <td>Comstock</td>
+        <td>34</td>
+    </tr>
+    <tr>
+        <td>Ryan</td>
+        <td>Buillard</td>
+        <td>23</td>
+    </tr>
+</table>
+
+<p> Ryan's ICS classes this semester</p>
+
+<ol>
+    <li>ICS415</li>
+    <li>ICS351</li>
+    <li>ICS321</li>
+    <li>ICS414</li>
+</ol>
+
+<ul>
+    <li>ICS415</li>
+    <li>ICS351</li>
+    <li>ICS321</li>
+    <li>ICS414</li>
+</ul>
+
+<dl>
+    <dt>ICS415</dt>
+    <dd>- Programming For the Web</dd>
+    <dt>ICS351</dt>
+    <dd>- Network Design and Management</dd>
+    <dt>ICS321</dt>
+    <dd>- Data Storage and Retrieval</dd>
+    <dt>ICS414</dt>
+    <dd>- Software Engineering II</dd>
+</dl>
+
+
+
+
+
+<footer id="footer">
+    Copyright (C) Ryan Buillard
+</footer>
+
+</body>
+</html>
