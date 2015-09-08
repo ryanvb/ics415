@@ -1,0 +1,49 @@
+
+
+#header{
+    color: darkblue;
+    line-height:30px;
+    height:50px;
+    text-align:center;
+    border-bottom:2px solid black;
+    padding:65px;
+}
+
+#footer2 {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+    height: 50px;
+}
+
+#container {
+    width: 100%;
+}
+
+#sum {
+    float: left;
+    height: 500px;
+    color: darkblue;
+    border-right: 2px solid midnightblue;
+    border-top: 2px solid black;
+}
+
+#second {
+
+    float: left;
+    height: 500px;
+    color: darkblue;
+    border-top: 2px solid black;
+}
+
+#navbar {
+    padding-top: 15px;
+    height: 50px;
+}
+
+
+
+
+        
