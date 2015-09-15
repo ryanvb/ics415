@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>In Class Web with JavaScript Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" href="StyleSheetW4C1.css">
+    <link rel="stylesheet" href="C:\xampp\htdocs\ics415\bootstrap-3.3.5-dist\css\bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="Header">
+        <header id="header">
+            <h1> Ryan's Website</h1>
+        </header>
+
+        <nav id="navbar">
+            <a href="ICS415ICBootStrapPart1.html">Home</a>
+            <a href="ICS415ICBootStrapPart2.html">Forms</a>
+            <a href="ICS415ICBootStrapPart3.html">Classes</a>
+        </nav>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6" >
+
+            <summary id="sum">
+                <h3>Sidebar</h3>
+                <p>This is the main page for Ryan's awesome website </p>
+            </summary>
+        </div>
+
+        <div class="col-md-6">
+
+            <div id= "body">
+                <p>This is my body</p>
+                <ul class="nav nav-tabs">
+                    <li><a data-toggle="tab" href="#menu1">Tab 1</a></li>
+                    <li><a data-toggle="tab" href="#menu2">Tab 2</a></li>
+                    <li><a data-toggle="tab" href="#menu3">Tab 3</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <p>Click on a tab</p>
+                    <button type="button" onclick="myFunction()">Try it</button>
+                    <p id="text">Change Me.</p>
+
+
+                    <div id="menu1" class="tab-pane fade">
+                        <h3>Tab1</h3>
+                        <button type="button">button1</button>
+
+                    </div>
+                    <div id="menu2" class="tab-pane fade">
+                        <h3>Tab 2</h3>
+                        <p>hello2</p>
+                    </div>
+                    <div id="menu3" class="tab-pane fade">
+                        <h3>Tab 3</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="footer">
+        <div id="footer2">
+            Copyright (C) Ryan Buillard
+        </div>
+
+    </div>
+
+</div>
+<script src="C:\xampp\htdocs\ics415\IC\w4c1\JavaScriptW4C1.js"></script>
+</body>
+</html>
