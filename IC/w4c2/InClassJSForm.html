@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>In Class Web with JavaScript Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" href="StyleSheetW4C2.css">
+    <link rel="stylesheet" href="C:\xampp\htdocs\ics415\bootstrap-3.3.5-dist\css\bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="Header">
+        <header id="header">
+            <h1> Ryan's Forms Page</h1>
+        </header>
+
+        <nav id="navbar">
+            <a href="InClassJSForm.html">Forms</a>
+            <a href="InClassJavaScriptProcess.html">Process</a>
+        </nav>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6" >
+
+            <summary id="sum">
+                <h3>Sidebar</h3>
+                <p>This is the forms page</p>
+            </summary>
+        </div>
+
+        <div class="col-md-6">
+
+            <div id= "body">
+                <p>This is my body</p>
+
+                <button type="button" onclick="myFunction()">Try it</button>
+
+                <form name="myForm" action="InClassJavaScriptProcess.html" method="get">
+                    <div class="form-group">
+                        <label for="username">User name: </label>
+                        <input type="text" name="name" id="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address: </label>
+                        <input type="text" name="address" id="address">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number: </label>
+                        <input type="text" name="phone" id="phone">
+                    </div>
+                    <input type="submit" value="Submit" onclick="testResults()">
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    </div>
+
+    <div class="footer">
+        <div id="footer2">
+            Copyright (C) Ryan Buillard
+        </div>
+
+    </div>
+
+</div>
+<script src="C:\xampp\htdocs\ics415\IC\w4c2\JavaScriptW4C2.js"></script>
+</body>
+</html>
