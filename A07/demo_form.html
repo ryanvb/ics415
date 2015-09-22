@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>In Class Web with JavaScript Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" href="StyleSheetA07.css">
+    <link rel="stylesheet" href="C:\xampp\htdocs\ics415\bootstrap-3.3.5-dist\css\bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="Header">
+        <header id="header">
+            <h1> Ryan's Assignment 7</h1>
+        </header>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6" >
+            <div id = "sum">
+            <button type="button" onclick="return getClasses('checkClass')">Get Classes</button>
+            <div id="checkClass" class="class1 class2 class3" ></div>
+
+            <button type="button" onclick="return addClass('checkClass', ' RyansNewClass')">Add Class</button>
+
+            <button type="button" onclick="displayArray('checkClass')">Display Array of Classes</button>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div id= "body">
+            <p id="errortext1"></p>
+            <p id="errortext2"></p>
+            <p id="errortext3"></p>
+            <p id="errortext4"></p>
+            <p id="errortext5"></p>
+            <form name="myForm" action="demo_form.html" onsubmit="return validateForm()" method="get">
+                <div class="form-group">
+                    <label for="username">User name: </label>
+                    <input type="text" name="name" id="username">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password: </label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="form-group">
+                    <label for="confirm">Confirm Password: </label>
+                    <input type="password" name="confirm" id="confirm">
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div id="footer2">
+            Copyright (C) Ryan Buillard
+        </div>
+    </div>
+</div>
+
+<script src="myscript.js"></script>
+</body>
+</html>
