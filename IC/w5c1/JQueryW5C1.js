@@ -4,7 +4,7 @@
 
 $(document).ready(function(){
     $("button").click(function(){
-        $("#text").html("<b>you changed me!</b>");
+        $("#text").toggle;
     });
 });
 

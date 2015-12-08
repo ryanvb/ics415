@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ICS415HW5Part1</title>
+    <link rel = "stylesheet" href="StyleSheetICBootStrap.css">
+    <link rel="stylesheet" href="C:\xampp\htdocs\ics415\bootstrap-3.3.5-dist\css\bootstrap.css">
+</head>
+
+
+<body>
+
+
+        <header id="header">
+            <h1> Ryan's Forms</h1>
+        </header>
+
+        <nav id="navbar">
+            <a href="ICS415ICBootStrapPart1.html">Home</a>
+            <a href="ICS415ICBootStrapPart2.html">Forms</a>
+            <a href="ICS415ICBootStrapPart3.html">Classes</a>
+        </nav>
+
+
+        <div id="container">
+            <summary id="sum">
+                <h3>Sidebar</h3>
+                <p>This is Ryan's forms page</p>
+            </summary>
+
+            <div id="second">
+                <h3>Main Page</h3>
+                <form action="ICS415HW5Part2.html" method="get">
+                    Choose your favorite color:
+                    <input type="color" name="favcolor" value="#ff0000">
+
+
+                    Birthday:
+                    <input type="date" name="bday">
+
+
+                    Birthday w/ time: (date and time):
+                    <input type="datetime" name="bdaytime">
+
+
+                    E-mail:
+                    <input type="email" name="email">
+
+
+                    Most memorable month: (month and year):
+                    <input type="month" name="bdaymonth">
+
+
+                    How you rate this page (between 1 and 5):
+                    <input type="number" name="quantity" min="1" max="5">
+
+
+                    How you rate this class in points:
+                    <input type="range" name="points" min="0" max="10">
+
+
+                    Search Google:
+                    <input type="search" name="googlesearch">
+
+
+                    Add your homepage:
+                    <input type="url" name="homepage">
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+
+        <footer id="footer">
+            Copyright (C) Ryan Buillard
+        </footer>
+
+
+</body>
+
+</html>
